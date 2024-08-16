@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background: linear-gradient(115deg, #ffffff, #dddddd);  
+}
+.cssbuttons-io-before {
+    transform: translateX(100%);
+  }
+  
+  button:hover .cssbuttons-io-before {
+    transform: translateX(0%);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
