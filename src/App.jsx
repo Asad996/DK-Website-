@@ -23,7 +23,7 @@ function App() {
             <Route path='/onsiteintern' element={<OnsiteInternship />} />
             <Route path='/remoteintern' element={<RemoteInternship />} />
             <Route path='/postjob' element={<JobPost/>} />
-          <h1>aksjfg</h1>
+
           </Route>
         </Routes>
       </BrowserRouter>
